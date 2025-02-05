@@ -32,7 +32,7 @@ const service = {
   },
   deleteTask: async (id) => {
     console.log('deleteTask')
-    const result = await axios.delete(`/items/${id}`); // הוספת ה-ID לכתובת ה-API
+    const result = await axios.delete(`/items/${id}`); 
     return result.data
   }
 };
